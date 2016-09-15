@@ -1,0 +1,20 @@
+{
+    "name": "webvimark/yii2-fontawesome",
+    "description": "Yii2 font awesome asset",
+    "keywords": ["yii2","extension", "fontawesome"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vimark",
+            "email": "webvimark@gmail.com"
+        }
+    ],
+    "require": {
+		"bower-asset/fontawesome": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "webvimark\\fontawesome\\": ""
+        }
+    }
+}
